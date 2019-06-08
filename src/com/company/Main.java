@@ -7,10 +7,10 @@ public class Main {
 
         Game g =new Game();
 
-        g.addReporter(new Reporter());
-        g.addSpactator(new Spectator("A"));
-        g.addSpactator(new Spectator("A"));
-        g.addSpactator(new Spectator("B"));
+        g.addSObsever(new Reporter());
+        g.addSObsever(new Spectator("A"));
+        g.addSObsever(new Spectator("A"));
+        g.addSObsever(new Spectator("B"));
 
         g.goal("B");
     }
